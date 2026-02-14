@@ -1,6 +1,6 @@
-import sys
-import os
-sys.path.append(os.path.abspath(".."))
+#import sys
+#import os
+#sys.path.append(os.path.abspath(".."))
 from app import jkadd
 from app import jksub
 
