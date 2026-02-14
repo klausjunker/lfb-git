@@ -1,9 +1,12 @@
 import sys
 import os
 sys.path.append(os.path.abspath(".."))
-from app import add
+from app import jkadd
+from app import jksub
 
 def test_add():
-    assert add(2, 3) == 5
-    assert add(-1, 1) == 0
+    assert jkadd(2, 3) == 5
+    assert jkadd(-1, 1) == 0
+def test_sub():
+    assert jksub(5, 3) == 2
 
