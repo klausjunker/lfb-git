@@ -5,8 +5,6 @@ def jksub(a, b):
 def jkmul(a, b):
     return a * b
 def jkdiv(a, b):
+    if b == 0:
+        return "Fehler: Division durch 0!"
     return a / b
-
-
-
-
