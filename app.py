@@ -8,3 +8,5 @@ def jkdiv(a, b):
     if b == 0:
         return "Fehler: Division durch 0!"
     return a / b
+def jkmmittelwert(a, b):
+    return (a + b)/2
